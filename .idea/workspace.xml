@@ -20,17 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e403d88-3acb-49f6-a4d1-84fa79c83bf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Card.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Card.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Deck.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Deck.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Match.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Match.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="8e403d88-3acb-49f6-a4d1-84fa79c83bf6" name="Default Changelist" comment="v0.0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -91,8 +84,16 @@
       <updated>1605798795501</updated>
       <workItem from="1605798802344" duration="193000" />
       <workItem from="1605799019696" duration="2269000" />
-      <workItem from="1605801333654" duration="11336000" />
+      <workItem from="1605801333654" duration="17157000" />
     </task>
+    <task id="LOCAL-00001" summary="v0.0.1">
+      <created>1605871303996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605871303996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +110,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="77" key="#Plugins" timestamp="1605798994788">
@@ -127,26 +132,34 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="496" y="134" key="Github.UntrackedFilesDialog/0.0.1368.872@0.0.1368.872" timestamp="1605798891072" />
-    <state width="1325" height="222" key="GridCell.Tab.0.bottom" timestamp="1605871092857">
+    <state width="1325" height="335" key="GridCell.Tab.0.bottom" timestamp="1605909074968">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="222" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1605871092857" />
-    <state width="1325" height="222" key="GridCell.Tab.0.center" timestamp="1605871092857">
+    <state width="1325" height="335" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1605909074968" />
+    <state width="1325" height="335" key="GridCell.Tab.0.center" timestamp="1605909074967">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="222" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1605871092857" />
-    <state width="1325" height="222" key="GridCell.Tab.0.left" timestamp="1605871092857">
+    <state width="1325" height="335" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1605909074967" />
+    <state width="1325" height="335" key="GridCell.Tab.0.left" timestamp="1605909074967">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="222" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1605871092857" />
-    <state width="1325" height="222" key="GridCell.Tab.0.right" timestamp="1605871092857">
+    <state width="1325" height="335" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1605909074967" />
+    <state width="1325" height="335" key="GridCell.Tab.0.right" timestamp="1605909074967">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="222" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1605871092857" />
+    <state width="1325" height="335" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1605909074967" />
     <state x="186" y="81" key="SettingsEditor" timestamp="1605799046006">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1605799046006" />
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605871311018">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1605871311018" />
+    <state x="501" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605871104331">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="501" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1605871104331" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1605798939570">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

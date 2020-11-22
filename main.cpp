@@ -2,7 +2,7 @@
 #include "Classes/Deck.h"
 #include "Classes/Match.h"
 
-#define attempts 1000000
+//#define attempts 100000
 
 using namespace std;
 
@@ -11,13 +11,16 @@ int main() {
     Deck MyDeck;
     Match *MyMatch = new Match(MyDeck);
     int wonTimes = 0;
+    double attempts = 0;
 
-    for (int i = 0; i < attempts; i++){
+    for (;;){
+
         MyMatch->playGame();
         if(MyMatch->getResult()) wonTimes++;
+        cout<<(double)wonTimes/attempts++*100<<endl;
     }
 
-    cout<<(double)wonTimes/(double)attempts*100;
+
     delete MyMatch;
     return 0;
 }
