@@ -14,15 +14,15 @@
       <config projectName="CardGame" targetName="CardGame" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e403d88-3acb-49f6-a4d1-84fa79c83bf6" name="Default Changelist" comment="v0.0.2">
+    <list default="true" id="8e403d88-3acb-49f6-a4d1-84fa79c83bf6" name="Default Changelist" comment="v0.0.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Università/Algorithems/2 - Liste tramite array" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,11 +69,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +80,9 @@
       <updated>1605798795501</updated>
       <workItem from="1605798802344" duration="193000" />
       <workItem from="1605799019696" duration="2269000" />
-      <workItem from="1605801333654" duration="18413000" />
+      <workItem from="1605801333654" duration="21020000" />
+      <workItem from="1606683410614" duration="495000" />
+      <workItem from="1606905255632" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="v0.0.1">
       <created>1605871303996</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606058491538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v0.0.3">
+      <created>1606060952889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606060952890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.0.1" />
     <MESSAGE value="v0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.0.2" />
+    <MESSAGE value="v0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="77" key="#Plugins" timestamp="1605798994788">
@@ -132,6 +138,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="456" y="152" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1605865022630" />
+    <state x="465" y="191" key="FileChooserDialogImpl" timestamp="1606683971879">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1606683971879" />
     <state x="562" y="334" key="Github.ShareDialog" timestamp="1605798870593">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -140,30 +150,30 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="496" y="134" key="Github.UntrackedFilesDialog/0.0.1368.872@0.0.1368.872" timestamp="1605798891072" />
-    <state width="1325" height="140" key="GridCell.Tab.0.bottom" timestamp="1606058440869">
+    <state width="1325" height="140" key="GridCell.Tab.0.bottom" timestamp="1606494297701">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="140" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1606058440869" />
-    <state width="1325" height="140" key="GridCell.Tab.0.center" timestamp="1606058440868">
+    <state width="1325" height="140" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1606494297701" />
+    <state width="1325" height="140" key="GridCell.Tab.0.center" timestamp="1606494297700">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="140" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1606058440868" />
-    <state width="1325" height="140" key="GridCell.Tab.0.left" timestamp="1606058440868">
+    <state width="1325" height="140" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1606494297700" />
+    <state width="1325" height="140" key="GridCell.Tab.0.left" timestamp="1606494297696">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="140" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1606058440868" />
-    <state width="1325" height="140" key="GridCell.Tab.0.right" timestamp="1606058440869">
+    <state width="1325" height="140" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1606494297696" />
+    <state width="1325" height="140" key="GridCell.Tab.0.right" timestamp="1606494297700">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1325" height="140" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1606058440869" />
+    <state width="1325" height="140" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1606494297700" />
     <state x="186" y="81" key="SettingsEditor" timestamp="1606058406473">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1606058406473" />
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606058498632">
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606060989192">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1606058498632" />
+    <state x="277" y="165" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1606060989192" />
     <state x="501" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605871104331">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
