@@ -12,18 +12,19 @@ int main() {
     Deck MyDeck;
     Match *MyMatch = new Match(MyDeck);
     unsigned long int wonTimes = 0;
-    long double attempts = 0;
     ofstream rawData;
 
 
-    for (;;){
-
-        rawData.open ("rawData.txt", std::ofstream::out | std::ofstream::trunc);
-        MyMatch->playGame();
-        if(MyMatch->getResult()) wonTimes++;
-        cout<<attempts<<endl;
-        rawData <<(long double)wonTimes/attempts++*100<<"%"<<endl;
+    for (int i = 0; i < 100; i++){
+        rawData.open ("rawData.txt", std::ofstream::out | std::ofstream::app);
+        for(int j = 0; j < 10000; j++) {
+            MyMatch->playGame();
+            if (MyMatch->getResult()) wonTimes++;
+        }
+        rawData <<(long double)wonTimes/10000.000<<endl;
         rawData.close();
+        cout<<i+1<<"# "<<wonTimes<<"/10000= "<< wonTimes/10000.000<<endl;
+        wonTimes = 0;
     }
 
 
